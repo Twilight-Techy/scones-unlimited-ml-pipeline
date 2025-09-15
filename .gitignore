@@ -19,7 +19,6 @@ datasets/
 
 # Ignore downloaded S3 / captured data
 captured_data/
-*.png
 *.jpg
 *.jpeg
 

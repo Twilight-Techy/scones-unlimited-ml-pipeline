@@ -25,7 +25,7 @@ This project demonstrates how to build a scalable ML pipeline that ingests input
 6. **Visualization** – Model predictions are visualized with test data.  
 
 <p align="center">  
-  <img src="docs/step-function-diagram.png" alt="Step Function Workflow" width="600"/>  
+  <img src="docs\Screenshot 2025-09-15 001524.png" alt="Step Function Workflow" width="600"/>  
 </p>  
 
 ---
@@ -44,7 +44,7 @@ This project demonstrates how to build a scalable ML pipeline that ingests input
 Here’s an example of the model output visualization with CIFAR-10 vehicle classes:  
 
 <p align="center">  
-  <img src="docs/visualization-sample.png" alt="Model Prediction Visualization" width="500"/>  
+  <img src="visualization_screenshots/Screenshot 2025-09-15 103457.png" alt="Model Prediction Visualization" width="500"/>  
 </p>  
 
 ---
@@ -64,18 +64,17 @@ Here’s an example of the model output visualization with CIFAR-10 vehicle clas
 ---
 
 ## 📂 Project Structure
-├── lambda_functions/
-│ ├── preprocess_lambda.py
-│ ├── inference_lambda.py
-│ └── postprocess_lambda.py
-├── state_machine/
-│ └── scones_unlimited_state_machine.json
-├── visualization/
-│ └── visualize_predictions.ipynb
-├── docs/
-│ ├── step-function-diagram.png
-│ └── visualization-sample.png
+
+``` markdown
+├── lambda.py
+├── CIFARStateMachine.asl.json
+├── visualization_screenshots/
+│   └── [visualization images]
+├── starter.ipynb
+├── test.lst
+├── train.lst
 └── README.md
+```
 
 ---
 
